@@ -39,7 +39,7 @@
         lv2:index 2 ;
         lv2:symbol "bypass" ;
         lv2:name "Bypass" ;
-        lv2:default 1.0 ;
+        lv2:default 1.0000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
         lv2:portProperty lv2:toggled , lv2:integer ;
@@ -51,7 +51,7 @@
         lv2:name "Gain" ;
         lv2:minimum 0 ;
         lv2:maximum 100 ;
-        lv2:default 40 ;
+        lv2:default 81.1384 ;
         units:unit units:pc ;
     ] , [
         a lv2:ControlPort , lv2:InputPort ;
@@ -60,7 +60,7 @@
         lv2:name "Treble" ;
         lv2:minimum 0 ;
         lv2:maximum 100 ;
-        lv2:default 50 ;
+        lv2:default 65.2902 ;
         units:unit units:pc ;
     ] , [
         a lv2:ControlPort , lv2:InputPort ;
@@ -69,7 +69,7 @@
         lv2:name "Output" ;
         lv2:minimum 0 ;
         lv2:maximum 100 ;
-        lv2:default 70 ;
+        lv2:default 70.0000 ;
         units:unit units:pc ;
     ] , [
         a lv2:ControlPort , lv2:InputPort ;
@@ -78,7 +78,7 @@
         lv2:name "Morph Bias" ;
         lv2:minimum 0 ;
         lv2:maximum 100 ;
-        lv2:default 50 ;
+        lv2:default 0.0000 ;
         units:unit units:pc ;
     ] , [
         a lv2:ControlPort , lv2:InputPort ;
@@ -87,7 +87,7 @@
         lv2:name "Sensitivity" ;
         lv2:minimum 0 ;
         lv2:maximum 100 ;
-        lv2:default 50 ;
+        lv2:default 0.0000 ;
         units:unit units:pc ;
     ] , [
         a lv2:ControlPort , lv2:InputPort ;
@@ -96,7 +96,7 @@
         lv2:name "Glassy Sparkle" ;
         lv2:minimum 0 ;
         lv2:maximum 100 ;
-        lv2:default 60 ;
+        lv2:default 65.5692 ;
         units:unit units:pc ;
     ] , [
         a lv2:ControlPort , lv2:InputPort ;
@@ -105,7 +105,7 @@
         lv2:name "Magic Diode Mod" ;
         lv2:minimum 0 ;
         lv2:maximum 1 ;
-        lv2:default 0 ;
+        lv2:default 1.0000 ;
         lv2:portProperty lv2:toggled , lv2:integer ;
     ] , [
         a lv2:ControlPort , lv2:InputPort ;
@@ -114,6 +114,6 @@
         lv2:name "Mix" ;
         lv2:minimum 0 ;
         lv2:maximum 100 ;
-        lv2:default 100 ;
+        lv2:default 100.0000 ;
         units:unit units:pc ;
     ] .
